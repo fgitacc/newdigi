@@ -1,0 +1,112 @@
+div.load {
+    width: 95%;
+    height: 80px;
+    background-color: #3C4B6D;
+    background-image: linear-gradient(to left, #3C4B6D, #3c4b6d82);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto 20px auto;
+    position: relative;
+}
+
+div.load>div.app {
+    width: 320px;
+    height: 45;
+    display: inline-block;
+}
+
+div.load>div.app>img {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    margin: 20px 20px 0 20px;
+    vertical-align: middle;
+}
+
+div.load>div.app>h4 {
+    width: 228px;
+    height: 44px;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    line-height: 44px;
+    margin-top: 20px;
+}
+
+div.load>div.link {
+    width: 750px;
+    height: 60px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div.load>div.link>a.link1, div.load>div.link>a.link2, div.load>div.link>a.link3, div.load>div.link>a.link4 {
+    width: 145px;
+    height: 60px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+div.load>div.link>a.link1 {
+    top: 20px;
+    right: 0;
+}
+
+div.load>div.link>a.link2 {
+    top: 20px;
+    right: 160px;
+}
+
+div.load>div.link>a.link3 {
+    top: 20px;
+    right: 320px;
+}
+
+div.load>div.link>a.link4 {
+    top: 20px;
+    right: 480px;
+}
+
+div.load>div.link>a.link5 {
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+    padding-top: 0;
+}
+
+div.load>div.link>a>img {
+    display: inline-block;
+    width: 44px;
+    height: 42px;
+
+}
+
+div.load>div.link>a.link1>img, div.load>div.link>a.link2>img, div.load>div.link>a.link3>img, div.load>div.link>a.link4>img {
+    width: 142px;
+    height: 44px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

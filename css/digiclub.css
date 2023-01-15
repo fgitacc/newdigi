@@ -1,0 +1,115 @@
+div.digiclub {
+    width: 95%;
+    height: 88px;
+    /* background-color: #007295; */
+    background-image: linear-gradient(to left, #007295, #00729564);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto 20px auto;
+
+}
+
+div.digiclub>div.clubimg {
+    width: calc(100% / 3);
+    height: 100%;
+    margin: 0 40px 0 10px;
+    position: relative;
+    display: inline-block;
+}
+
+div.digiclub>div.clubimg>a {
+    display: inline-block;
+    width: auto;
+    height: 88px;
+    line-height: 110px;
+    vertical-align: top;
+}
+
+div.digiclub>div.clubimg>a>svg.clubsvg {
+    display: inline-block;
+    width: 119px;
+    height: 33px;
+
+}
+
+div.digiclub>div.clubimg>p {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    padding: auto 10px;
+    line-height: 88px;
+    font-size: 14px;
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    left: 80px;
+    color: white;
+}
+
+div.digiclub>div.clubimg>b {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    padding: auto 10px;
+    line-height: 88px;
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    font-size: 14px;
+    color: white;
+}
+
+div.digiclub>div.clubimg>img.clubscore {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+div.digiclub>div.club1, div.digiclub>div.club2, div.digiclub>div.club3 {
+    width: 260px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 0;
+    background-color: white;
+    position: relative;
+}
+
+div.digiclub>div.club1 {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+div.digiclub>div.club3 {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+div.digiclub>div.club1>a, div.digiclub>div.club2>a, div.digiclub>div.club3>a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+div.digiclub>div.club1>a>img, div.digiclub>div.club2>a>img, div.digiclub>div.club3>a>img {
+    width: 170px;
+    height: 60px;
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+
+}
+
+div.digiclub>div.club1>a::after, div.digiclub>div.club2>a::after, div.digiclub>div.club3>a::after {
+    content: attr(dataclub);
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 12px;
+
+}

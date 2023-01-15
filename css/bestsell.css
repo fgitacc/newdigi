@@ -1,0 +1,7 @@
+div.bestsell{
+    width: 95%;
+    height: 300px;
+    overflow: hidden;
+    background-color: brown;
+    margin: 10px auto;
+}

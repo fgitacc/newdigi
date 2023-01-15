@@ -1,0 +1,64 @@
+div.read {
+    width: 95%;
+    height: 400px;
+    margin: 0 auto;
+}
+div.read>div.read1{
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+div.read > div.read2 {
+    width: 315px;
+    height: 300px;
+    display: inline-block;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    vertical-align: top;
+}
+div.read > div.read2>a>p{
+    padding: 0 15px;
+}
+div.read > div.read2:hover{
+    box-shadow: 5px 5px 5px lightgray;
+}
+div.read > div.read2 >a{
+    display: inline-block;
+    width: 100%;
+    height: 196px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-decoration:none;
+}
+div.read > div.read2 >a> img {
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+}
+div.read > div.read2 >a> p {
+    width: 100%;
+    height: 100%;
+    font-size: 11px;
+}
+div.read>div.read1>a::after{
+    content:attr(data-read-after);
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    font-size: 12px;
+}
+div.read>div.read1::before{
+    content: attr(data-read-before);
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}

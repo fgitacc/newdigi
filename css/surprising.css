@@ -1,0 +1,65 @@
+div.surprising {
+  width: 95%;
+  height: 250px;
+  background-color: var(--myRed);
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 calc(5% / 2);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+div.surprising>div.surpImg {
+  width: 200px;
+  height: inherit;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+div.surprising>div.surpImg>a {
+  width: inherit;
+  height: inherit;
+  text-decoration: none;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+}
+
+div.surprising>div.surpImg>a>span {
+  margin: 0 auto;
+  display: inline-block;
+  margin: 10px 50px;
+}
+
+div.surprising>div.surpImg>a>span>img {
+  margin: 0 auto;
+  display: inline-block;
+  width: 92px;
+  height: 77px;
+}
+
+div.surprising>div.surpImg>a>img {
+  position: absolute;
+  top: 75px;
+  right: 15px;
+}
+
+
+div.surprising>div.surpImg>a::after {
+  content: "مشاهده همه";
+  display: block;
+  width: 100px;
+  height: auto;
+  font-size: 13px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  right: 65px;
+  color: var(--myWhite);
+}

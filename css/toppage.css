@@ -1,0 +1,234 @@
+div.toppage {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+div.toppage>img {
+
+    width: inherit;
+    height: inherit;
+}
+
+div.search {
+    width: 95%;
+    height: 40px;
+    margin: 0 auto 10px auto;
+    position: relative;
+}
+
+div.search>div.profile {
+    width: 70px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 70px;
+    text-align: center;
+}
+
+div.search>div.profile>label {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#showProfile, #closeProfile {
+    display: none;
+}
+
+#showProfile:checked~div.showProfile {
+    display: block;
+    transition: 300ms;
+}
+
+#closeProfile:checked~div.showProfile {
+    display: none;
+    transition: 300ms;
+}
+
+div.search>div.showProfile {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    display: inline-block;
+    border: 2px solid var(--myGreen);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: var(--myWhite);
+    display: none;
+    z-index: 4;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+div.search>div.showProfile>p {
+    width: 90%;
+    height: 20px;
+    border-bottom: 2px solid lightgray;
+    display: inline-block;
+    text-align: right;
+    line-height: 5px;
+    font-size: 12px;
+    padding-right: 10px;
+    margin: 8px 10px;
+    cursor: pointer;
+}
+
+div.search>div.showProfile>h6 {
+    width: 95%;
+    height: 40px;
+    border-bottom: 2px solid lightgray;
+    display: inline-block;
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 10px;
+    margin: 0 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+div.search>div.showProfile>h6>label>img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 80px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+div.search>div.showProfile>p:last-of-type {
+    border-bottom: unset;
+}
+
+div.search>div.profile>label>img.arrow {
+    width: 10px;
+    height: 10px;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.search>div.profile>label>img.prof {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+div.search>div.basket {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    border-right: 2px solid lightgray;
+}
+
+div.search>div.basket>a {
+    width: inherit;
+    height: inherit;
+}
+
+div.search>div.basket>a>img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+div.search>div.digiIcon {
+    width: 130px;
+    height: 40px;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+div.search>div.digiIcon>img {
+    width: 115px;
+    height: 30px;
+    height: inherit;
+    display: inline-block;
+    color: var(--myRed);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+div.search>div.input {
+    width: 670px;
+    height: 40px;
+    display: inline-block;
+    background-color: var(--myWhite);
+    margin-right: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    /* padding: 2px 0; */
+    vertical-align: top;
+}
+
+div.search>div.input>input[type="search"] {
+    width: 600px;
+    height: 40px;
+    display: inline-block;
+    margin: 0;
+    line-height: 40px;
+    border-radius: 10px;
+    background-color: var(--myWhite);
+    outline: 0;
+    outline-style: none;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    vertical-align: middle;
+}
+
+div.search>div.input>input[type="search"]:hover {
+    cursor: text;
+}
+
+div.search>div.input:hover {
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+div.search>div.input>a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: var(--myWhite);
+    line-height: 52px;
+    margin: 0 10px 0 0;
+}
+
+div.search>div.input>a>img {
+    width: 20px;
+    height: 20px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    cursor: pointer;
+}

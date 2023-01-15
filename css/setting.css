@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Iransans;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: IranSans;
+  src: url("../font/FontsFree-Net-ir_sans.eot");
+  src: url("../font/FontsFree-Net-ir_sans.woff");
+  src: url("../font/FontsFree-Net-ir_sans.woff2");
+  src: url("../font/FontsFree-Net-ir_sans.ttf");
+}
+
+/* :root {
+  --myRed: #ff4a3b;
+  --myGreen: #5c815c;
+  --myWhite: #dff6f1;
+  --myPink: #d9b295;
+} */
+
+:root {
+
+  --myRed: #ff165d;
+  --myGreen: #3ec1d3;
+  --myWhite: #f6f7d7;
+  --myPink: #ff9a00;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--myGreen);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--myWhite);
+}

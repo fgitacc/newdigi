@@ -1,0 +1,124 @@
+div.digiplus{
+    width: 95%;
+    height: 390px;
+    margin: 25px auto 10px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #941B80;
+
+}
+div.digiplus>div.plusimg{
+    width: calc(100% / 3 - 15px);
+    height: inherit;
+    display: inline-block;
+    position: relative;
+}
+div.digiplus>div.plusimg>img{
+    width: 375px;
+    height: 320px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+div.digiplus>div.plusimg>p{
+    width: auto;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    color: white;
+    font-size: 12px;
+}
+div.digiplus>div.plusimg>a.linkplus{
+    width: auto;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    right: 60px;
+    color: white;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    text-decoration: none;
+    padding: 2px 20px;
+}
+div.digiplus>div.plus1,div.digiplus>div.plus2{
+    margin: 15px 0;
+    width: calc(100% / 3 - 10px);
+    height: 360px;
+    display: inline-block;
+    background-color:white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    vertical-align: top;
+}
+div.digiplus>div.plus2{
+    margin-left: 5px;
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+}
+div.digiplus>div.plus1{
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+}
+div.digiplus>div.plus1>div.plus11 ,div.digiplus>div.plus2>div.plus21 {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    
+}
+div.digiplus>div.plus1>div.plus12,div.digiplus>div.plus2>div.plus22 {
+    height: 300px;
+    width:100%;
+    display: inline-block;
+}
+div.digiplus>div.plus1>div.plus12>div,div.digiplus>div.plus2>div.plus22>div {
+    width: calc(100% / 3 - 5px);
+    height: 148px;
+    display: inline-block;
+
+}
+div.digiplus>div.plus1>div.plus12>div>a>img,div.digiplus>div.plus2>div.plus22>div>a>img {
+    width:116px;
+    height:116px ;
+    display: inline-block;
+    margin: 15px 9px;
+}
+div.digiplus>div.plus1>div.plus11>p , div.digiplus>div.plus2>div.plus21>p {
+    width: auto;
+    height: 25px;
+display: inline-block;
+font-size: 13px;
+margin: 10px 25px;
+}
+div.digiplus>div.plus1>div.plus11>a , div.digiplus>div.plus2>div.plus21>a {
+    width: auto;
+    height: 25px;
+    font-size: 11px;
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+    top: 10px;
+    line-height: 25px;
+    left: 25px;
+}
+div.digiplus>div.plusimg>a.svgplus{
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    right: 40px;
+}

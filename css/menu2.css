@@ -1,0 +1,380 @@
+div.menu {
+  width: 100%;
+  height: 50px;
+  background-color: var(--myRed);
+  padding: 0 5px;
+}
+
+div.menu>div.gps {
+  width: 19%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.menu>div.gps>label {
+  width: auto;
+  height: 100%;
+  display: inline-block;
+  font-size: 11px;
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+  margin-top: 10px;
+  overflow: visible;
+  cursor: pointer;
+  margin-right: 60px;
+}
+
+#show {
+  display: none;
+}
+
+
+div.menu>div.gps>label>img {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  line-height: 50px;
+  fill: white;
+  vertical-align: middle;
+}
+
+#show:checked~div.address {
+  display: block;
+}
+
+div.menu>div.gps>div.address {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  display: inline-block;
+  border: 2px solid var(--myGreen);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: var(--myWhite);
+  display: none;
+  z-index: 4;
+}
+
+
+div.menu>div.gps>div.address>input[type="radio"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding: 10px 30px;
+  margin-right: 10px;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+
+div.menu>div.gps>div.address>div {
+  width: 470px;
+  height: 50px;
+  margin: 10px 10px 10px 0;
+  line-height: 40px;
+  display: inline-block;
+  vertical-align: top;
+  border-bottom: 2px solid lightgray;
+}
+
+div.menu>div.gps>div.address>div>h5 {
+  width: 400px;
+  height: 50px;
+  margin: 10px 10px 10px 0;
+  line-height: 40px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.menu>div.gps>div.address>div>label {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#close {
+  display: none;
+}
+
+#close:checked~div.address {
+  display: none;
+}
+
+div.menu>div.gps>div.address>div>label>img {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 40px;
+  fill: var(--myRed);
+}
+
+div.menu>div.gps>div.address>p {
+  display: inline-block;
+  width: 450px;
+  height: 50px;
+  font-size: 12px;
+}
+
+
+div.menu>div.gps>div.address>input[type="radio"]:checked {
+  width: 20px;
+  height: 20px;
+}
+
+
+div.menu>div.gps>div.address>a {
+  width: inherit;
+  height: inherit;
+  display: block;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 10px;
+  color: var(--myGreen);
+}
+
+div.menu>div.gps>div.address>a>img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+
+div.menu>div.gps:active>div.address {
+  display: block;
+}
+
+div.menu>nav {
+  width: 80%;
+  height: 100%;
+  display: inline-block;
+
+  vertical-align: top;
+}
+
+div.menu>nav>ul {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  list-style: none;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+div.menu>nav>ul>li {
+  display: inline-block;
+  height: 100%;
+  width: auto;
+  vertical-align: top;
+  position: relative;
+}
+
+div.menu>nav>ul>li>a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 0 5px;
+  color: white;
+  font-weight: bold;
+}
+
+div.menu>nav>ul>li>a>img {
+  width: 20px;
+  height: 20px;
+  fill: white;
+  margin: auto 5px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+div.menu>nav>ul>li>a>svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+  margin: auto 5px;
+  vertical-align: middle;
+}
+
+div.menu>nav>ul>li.kala>a {
+  padding-right: 15px;
+}
+
+div.menu>nav>ul>li.kala>div.submenu {
+  width: 96vw;
+  height: 400px;
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  background-color: var(--myWhite);
+  display: none;
+  z-index: 3;
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1 {
+  width: 200px;
+  height: inherit;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  direction: ltr;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 0 10px;
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li {
+  width: 100%;
+  height: 50px;
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>a {
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2digital,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2machine {
+  width: calc(96vw - 210px);
+  height: 400px;
+  display: none;
+  vertical-align: top;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  direction: ltr;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2>div.sub2top,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2digital>div.sub2top,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2machine>div.sub2top {
+  width: inherit;
+  height: 60px;
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2>div.sub2top>a,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2digital>div.sub2top>a,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2machine>div.sub2top>a {
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 60px;
+  padding: 0 10px;
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2>div.sub2bottom,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2digital>div.sub2bottom,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2machine>div.sub2bottom {
+  width: inherit;
+  height: 330;
+  direction: rtl;
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2>div.sub2bottom>div,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2digital>div.sub2bottom>div,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2machine>div.sub2bottom>div {
+  width: 200px;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px 15px 5px 0;
+}
+
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2>div.sub2bottom>div>ul,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2digital>div.sub2bottom>div>ul,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2machine>div.sub2bottom>div>ul {
+  list-style: none;
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2>div.sub2bottom>div>ul>li>span>a,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2digital>div.sub2bottom>div>ul>li>span>a,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2machine>div.sub2bottom>div>ul>li>span>a {
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 10px;
+  border-right: 2px solid var(--myRed);
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2>div.sub2bottom>div>ul>li,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2digital>div.sub2bottom>div>ul>li,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2machine>div.sub2bottom>div>ul>li {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2>div.sub2bottom>div>ul>li>a,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2digital>div.sub2bottom>div>ul>li>a,
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li>div.sub2machine>div.sub2bottom>div>ul>li>a {
+  width: 100%;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 0px;
+  padding: 0 0px;
+}
+
+div.menu>nav>ul>li.kala:hover>div.submenu {
+  display: block;
+}
+
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li:hover {
+  background-color: var(--myGreen);
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li.mobile:hover>div.sub2 {
+  display: block;
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li.digital:hover>div.sub2digital {
+  display: block;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+
+div.menu>nav>ul>li.kala>div.submenu>div.sub1>ul>li.machine:hover>div.sub2machine {
+  display: block;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}

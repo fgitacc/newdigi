@@ -1,0 +1,39 @@
+div.rel {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+div.rel > div {
+    width: 300px;
+    height: 230px;
+    display: inline-block;
+    margin: 35px 11px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+div.rel > div:hover{
+    box-shadow: 5px 5px 5px lightgray;
+}
+div.rel > div >a{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;   
+}
+div.rel > div >a> img {
+width: inherit;
+height: inherit;
+border-radius: 20px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+-ms-border-radius: 20px;
+-o-border-radius: 20px;
+}

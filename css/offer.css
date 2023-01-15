@@ -1,0 +1,81 @@
+div.offer {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  height: 375px;
+}
+
+div.offer>div.offerh3 {
+  text-align: center;
+  width: 95%;
+  height: 60px;
+  display: inline-block;
+  line-height: 60px;
+  background-color: var(--myRed);
+  color: aliceblue;
+  margin: 5px auto;
+}
+
+div.offer>div.bottom,
+div.offer>div.top {
+  display: inline-block;
+  width: 95%;
+  height: 152px;
+  border: 1px solid lightgray;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div.offer>div.top {
+  border-bottom: unset;
+  border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -ms-border-radius: 10px 10px 0px 0px;
+  -o-border-radius: 10px 10px 0px 0px;
+}
+
+div.offer>div.bottom {
+  border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -ms-border-radius: 0px 0px 10px 10px;
+  -o-border-radius: 0px 0px 10px 10px;
+}
+
+div.offer>div.bottom>div,
+div.offer>div.top>div {
+  width: 178px;
+  height: 150px;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+  border-right: 1px solid lightgray;
+  cursor: pointer;
+}
+
+div.offer>div.bottom>div:first-of-type,
+div.offer>div.top>div:first-of-type {
+  border-right: unset;
+}
+
+div.offer>div.bottom>div>img,
+div.offer>div.top>div>img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 8px auto;
+}
+
+div.offer>div.bottom>div>p,
+div.offer>div.top>div>p {
+  text-align: center;
+  font-size: 10px;
+  vertical-align: top;
+}

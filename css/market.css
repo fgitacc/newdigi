@@ -1,0 +1,130 @@
+div.market {
+  width: 95%;
+  border-radius: 10px;
+  line-height: 80px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 10px auto;
+  background-color: var(--myGreen);
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+div.market>div {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+div.market>div.m1 {
+  width: 60px;
+  height: 60px;
+}
+
+div.market>div.m1>img {
+  display: block;
+}
+
+div.market>div.svg1 {
+  width: 300px;
+  line-height: 80px;
+  vertical-align: middle;
+}
+
+div.market>div.svg1>img {
+  vertical-align: middle;
+  text-align: center;
+}
+
+div.market>div.off45 {
+  text-align: center;
+  display: inline-block;
+  padding: 0 5px;
+  background-color: var(--myWhite);
+  width: 120px;
+  line-height: 30px;
+  height: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+
+div.market>div.off45>p {
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+div.market>div.marketoff {
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 60px;
+  padding: 2px 0;
+  width: 450px;
+  height: 80px;
+}
+
+div.market>div.marketoff>div {
+  display: inline-block;
+  height: inherit;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+div.market>div.marketoff>div>img {
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 50%;
+  height: 80px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+div.market>div.more100 {
+  text-align: center;
+  background-color: var(--myWhite);
+  padding: 0 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+
+div.market>div.more100>p {
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 30px;
+  height: 30px;
+  width: 100px;
+}
+
+div.dis::after {
+  content: attr(data-discount);
+  display: block;
+  width: 25px;
+  height: 17px;
+  background-color: var(--myRed);
+  position: absolute;
+  line-height: 20px;
+  font-size: 9px;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

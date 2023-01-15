@@ -1,0 +1,26 @@
+div.grouping {
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+  margin: 0 auto;
+}
+
+div.grouping>div {
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  margin: 10px 20px;
+}
+
+div.grouping>div>img {
+  width: inherit;
+  height: inherit;
+  cursor: pointer;
+}
+
+div.grouping>h3 {
+  width: 95%;
+  padding: 20px;
+  background-color: var(--myRed);
+  margin: 0 auto;
+}
