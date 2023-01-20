@@ -1,6 +1,6 @@
 div.surprising {
   width: 95%;
-  height: 250px;
+  height: 290px;
   background-color: var(--myRed);
   display: inline-block;
   box-sizing: border-box;
@@ -13,45 +13,48 @@ div.surprising {
   -o-border-radius: 20px;
 }
 
-div.surprising>div.surpImg {
+div.surpImg {
   width: 200px;
-  height: inherit;
+  height: 290px;
   display: inline-block;
   position: absolute;
   top: 0;
   right: 10px;
 }
 
-div.surprising>div.surpImg>a {
-  width: inherit;
-  height: inherit;
+div.surpImg>a {
+  width: 100%;
+  height: 100%;
   text-decoration: none;
   margin: 0 auto;
   display: inline-block;
   position: relative;
+  background-color: var(--myRed);
 }
 
-div.surprising>div.surpImg>a>span {
+div.surpImg>a>span {
   margin: 0 auto;
   display: inline-block;
   margin: 10px 50px;
 }
 
-div.surprising>div.surpImg>a>span>img {
+div.surpImg>a>span>img {
   margin: 0 auto;
   display: inline-block;
   width: 92px;
   height: 77px;
 }
 
-div.surprising>div.surpImg>a>img {
+div.surpImg>a>img {
+  width: 145px;
+  height: 115px;
   position: absolute;
-  top: 75px;
-  right: 15px;
+  top: 90px;
+  right: 20px;
 }
 
 
-div.surprising>div.surpImg>a::after {
+div.surpImg>a::after {
   content: "مشاهده همه";
   display: block;
   width: 100px;
@@ -60,6 +63,73 @@ div.surprising>div.surpImg>a::after {
   font-weight: bold;
   position: absolute;
   bottom: 10px;
-  right: 65px;
+  right: 45px;
   color: var(--myWhite);
 }
+
+div.swiper-slide>div {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-top: 20px solid var(--myRed);
+  border-bottom: 20px solid var(--myRed);
+}
+
+img.imgSurpSwiper {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+img.swiperToman {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin: 5px 10px 0 10px;
+}
+
+div.priceSwiper {
+  margin-top: 15px;
+  display: inline-block;
+  font-size: 13px;
+  position: relative;
+  width: 150px;
+  height: 85px;
+  font-weight: bold;
+  text-align: left;
+}
+
+div.priceSwiper::after {
+  content: attr(price-off);
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  text-decoration: line-through;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+div.priceSwiper::before {
+  content: attr(dis-off);
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  font-size: 11px;
+  text-align: center;
+  font-weight: normal;
+  line-height: 20px;
+  width: 35px;
+  height: 20px;
+  background-color: var(--myRed);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* div.swiper_surp>div.swiper-wrapper>div.swiper-slide>div:nth-of-type(2) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+} */

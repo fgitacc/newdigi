@@ -1,4 +1,4 @@
-div.brand{
+div.brand {
     width: 95%;
     height: 250px;
     box-sizing: border-box;
@@ -10,23 +10,49 @@ div.brand{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
-div.brand>div.brandh3
-{
-    width: 100%;
-    height: 80px;
+    background-color: white;
 }
 
-div.brand>div.brandh3>h3
-{
+div.brand>div.brandh3 {
+    width: 100%;
+    height: 60px;
+    background-color: var(--myRed);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+}
+
+div.brand>div.brandh3>h3 {
     width: 100%;
     height: inherit;
     text-align: center;
-    display: inline-block;
-    margin: 5px auto;
+    margin-bottom: 10px;
+    line-height: 60px;
+    vertical-align: middle;
+
 }
-div.brand>div.brandswiper
-{
+
+div.brand>div.brandh3>h3>img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.brand>div.brandSwiper {
     width: 100%;
-    height: 170px;
+    height: 165px;
+}
+
+div.brandSwiper>div.myBrandSwiper>div.swiper-wrapper>div.swiper-slide {
+    width: 100px;
+    border-right: 1px solid lightgrey;
+
+}
+
+div.brandSwiper>div.myBrandSwiper>div.swiper-wrapper>div.swiper-slide>img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
 }

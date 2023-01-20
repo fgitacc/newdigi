@@ -3,6 +3,9 @@ div.menu {
   height: 50px;
   background-color: var(--myRed);
   padding: 0 5px;
+  position: sticky;
+  top: 60px;
+  z-index: 3;
 }
 
 div.menu>div.gps {
@@ -189,6 +192,25 @@ div.menu>nav>ul>li>a {
   padding: 0 5px;
   color: white;
   font-weight: bold;
+  position: relative;
+}
+
+div.menu>nav>ul>li::after {
+  width: 0;
+  height: 4px;
+  content: "";
+  background-color: var(--myWhite);
+  position: absolute;
+  bottom: 0;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+
+div.menu>nav>ul>li:hover::after {
+  width: 100%;
 }
 
 div.menu>nav>ul>li>a>img {
